@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tya's Gallery</title>
+  <link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+  <div id="header"></div>
+  
+  
+  <div class="campo">
+    <h1>Tya's Gallery</h1>
+    <div class="galeria">
+        <img src="imagens/pt1.png" alt="Foto 1 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt2.jpg" alt="Foto 2 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt3.jpg" alt="Foto 3 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt4.jpg" alt="Foto 4 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt5.jpeg" alt="Foto 5 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt6.jpeg" alt="Foto 6 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt7.jpeg" alt="Foto 6 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt8.jpeg" alt="Foto 6 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt9.jpeg" alt="Foto 6 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt10.jpeg" alt="Foto 6 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt11.jpeg" alt="Foto 6 da Tya" onclick="abrirLightbox(this.src)">
+        <img src="imagens/pt12.jpg" alt="Foto 6 da Tya" onclick="abrirLightbox(this.src)">
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span class="fechar" onclick="fecharLightbox()">&times;</span>
+    <img id="imgLightbox" src="">
+  </div>
+
+  <div id="footer"></div>
+
+  <script src="js/scripts.js"></script>
+
+  <script src="js/galeria.js"></script>
+
+</body>
+</html>

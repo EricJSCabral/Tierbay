@@ -1,0 +1,19 @@
+
+//Exibe menu hamburger
+function toggleMenu() {
+    const menu = document.querySelector('ul.menu');
+    menu.classList.toggle('show');
+}
+
+//Carrega Footer e Header
+fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("footer").innerHTML = data;
+    });
+
+fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("header").innerHTML = data;
+    });
